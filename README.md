@@ -9,7 +9,7 @@ We’re going to have one.
 
   c. Accessibility
 
-    i. Print forms – they’re bad.
+      i. Print forms – they’re bad.
 
 2. Agile Practices
 
