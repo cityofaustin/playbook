@@ -16,7 +16,7 @@ If you would like to see and discuss the changes that other people have proposed
 
 ## Technical Stuff
 
-The site is compiled from [Markdown](http://kramdown.gettalong.org/ "Link to More Information About Markdown") files using [Jekyll](https://github.com/jekyll/jekyll "Link to More Information about Jekyll"). To propose a specific change, you can submit a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests") with your change to one of these source Markdown files. Criteria documents  are available in the `_criteria` [folder](https://github.com/cityofaustin/playbook/tree/master/_criteria "Link to the criteria Markdown files"), 
+The site is compiled from [Markdown](https://guides.github.com/features/mastering-markdown/ "Link to More Information About Markdown") files using [Jekyll](https://github.com/jekyll/jekyll "Link to More Information about Jekyll"). To propose a specific change, you can submit a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests") with your change to one of these source Markdown files. Criteria documents  are available in the `_criteria` [folder](https://github.com/cityofaustin/playbook/tree/master/_criteria "Link to the criteria Markdown files"), 
 
 ### Running the Site Locally
 #### Requirements
@@ -31,7 +31,7 @@ To run the site on your own computer, you will first need to install Vagrant and
 
 1. [Fork this repository](http://help.github.com/fork-a-repo/ "Instructions for Forking Your Repository") and clone it on your computer.
 
-2. Open a terminal, shell, command line or whatever you like to call it and change directories to the cloned repo folder on your computer.
+2. Open a terminal, shell, command line or whatever you like to call it and change directory to the cloned repo location on your computer.
 
 3. Run the command `$ vagrant up`. It may take several minutes for the machine to come up the first time. 
 
@@ -41,9 +41,9 @@ To run the site on your own computer, you will first need to install Vagrant and
 
 6. Run `$ jekyll serve --watch --force_polling`
 
-7. Visit [http://localhost:4000/playbook](http://localhost:4000/playbook/) in your browser to preview the site and let the magic begin!
+7. Visit [http://localhost:4000/playbook](http://localhost:4000/playbook/) in your browser to preview the site and let the magic begin! You can edit the files from your local machine. They will be synced to the VM where Jekyll will rebuild the site. Refresh your browser to see the changes.
 
-8. Don't forget to shutdown the vagrant box when your done using `$ vagrant halt` or `$ vagrant destroy` 
+8. Don't forget to shutdown the vagrant box when your done using the commands `$ vagrant halt` or `$ vagrant destroy` 
 
 ### Editing the Styling
 
