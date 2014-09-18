@@ -41,7 +41,7 @@ To run the site on your own computer, you will first need to install Vagrant and
 
 6. Run `$ jekyll serve --watch --force_polling`
 
-7. Visit [http://localhost:4000/playbook](http://localhost:4000/playbook/) in your browser to preview the site and let the magic begin! You can edit the files from your local machine. They will be synced to the VM where Jekyll will rebuild the site. Refresh your browser to see the changes.
+7. Visit [http://localhost:4000/playbook/](http://localhost:4000/playbook/) in your browser to preview the site and let the magic begin! You can edit the files from your local machine. They will be synced to the VM where Jekyll will rebuild the site. Refresh your browser to see the changes.
 
 8. Don't forget to shutdown the vagrant box when your done using the commands `$ vagrant halt` or `$ vagrant destroy` 
 
