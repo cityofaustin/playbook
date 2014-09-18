@@ -1,23 +1,37 @@
 ---
 layout: default
 ---
+<section class="main-section">
+  <div class="row">
+ 
+    <aside class="large-3 columns">
+      <div class="panel">
+        <h5>Criteria</h5>
+        <ol>
 
-<div class="home">
+         {% for criteria in site.criteria %}
+              <li><a href="#criteria-{{ criteria.id }}" title="View criteria {{ criteria.id }}">{{ criteria.title }}</a></li>
+         {% endfor %}
 
-  <h1 class="page-heading">Posts</h1>
+         </ol>
+      </div>
+    </aside>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="large-9 columns">
+      <div id="criteria" class="criteria outer-container">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        {% for criteria in site.criteria %}
+          <div class="criteria inner-container">
+            <a id="criteria-{{ criteria.id }}"></a>
+            <h5>Criteria {{ criteria.id }}</h5>
+            <h2>{{ criteria.title }}</h2>
+            {{ criteria.output }}
+          </div>
+        {% endfor %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+    </div>
+ 
+  </div>
+</section>
 
-</div>
