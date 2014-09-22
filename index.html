@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<section class="main-section">
+  <div class="row">
+ 
+    <aside class="large-3 columns">
+      <div id="criteria-list" class="panel">
+        <h5>Criteria</h5>
+        <ol>
+
+         {% for criteria in site.criteria %}
+              <li><a href="#criteria-{{ criteria.id }}" title="View criteria {{ criteria.id }}">{{ criteria.title }}</a></li>
+         {% endfor %}
+
+         </ol>
+      </div>
+    </aside>
+
+    <div class="large-9 columns">
+      <div id="criteria" class="criteria outer-container">
+
+        {% for criteria in site.criteria %}
+          <div class="criteria inner-container">
+            <a id="criteria-{{ criteria.id }}"></a>
+            <h5>Criteria {{ criteria.id }} <a href="#criteria-list" title="Go to top">&#x25B2;</a></h5>
+            <h2>{{ criteria.title }}</h2>
+            {{ criteria.output }}
+          </div>
+        {% endfor %}
+
+      </div>
+    </div>
+ 
+  </div>
+</section>
+

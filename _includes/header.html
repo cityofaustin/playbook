@@ -1,0 +1,42 @@
+<header>
+  <div id="masthead" class="masthead">
+    <div class="row">
+
+      <div class="large-10 medium-10 small-5 columns">
+        <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }} <small class="release-stage">pre-Alpha</small></a></h1>
+      </div>
+      <div class="medium-2 columns show-for-medium-only text-right right">
+        <a href="http://www.austintexas.gov">
+          <!-- <img class="medium-logo" src="http://placehold.it/60/fff/00539b&text=[logo]"/> -->
+          <img class="medium-logo" src="http://www.austintexas.gov/sites/all/themes/austintexas/images/austin_stamp.png">
+        </a>
+      </div>
+      <div class="small-7 columns show-for-small-only text-right right">
+        <a href="http://www.austintexas.gov">
+          <!-- <img class="small-logo" src="http://placehold.it/130/fff/00539b&text=[logo]"/> -->
+          <img class="small-logo" src="http://www.austintexas.gov/sites/all/themes/austintexas/images/austin_stamp.png">
+        </a>
+      </div>
+
+    </div> 
+  </div>
+ 
+  <div id="intro" class="intro">
+    <div class="row">
+
+      <div class="large-3 columns">
+        <div class="show-for-large-up text-center">          
+          <a href="http://www.austintexas.gov">
+            <!-- <img class="large-logo" src="http://placehold.it/180/fff/00539b&text=[logo]"/> -->
+            <img class="large-logo" src="http://www.austintexas.gov/sites/all/themes/austintexas/images/austin_stamp.png">
+          </a>
+        </div>
+      </div>
+      <div class="large-9 columns">
+        {% capture intro %}{% include intro.md %}{% endcapture %}
+        {{ intro | markdownify }}
+      </div>
+      
+    </div>
+  </div>
+</header>
