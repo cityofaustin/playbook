@@ -40,4 +40,4 @@
 
 * Limited set of commands (formatting options available in Markdown)
 
-!(demo image)[https://coderwall-assets-0.s3.amazonaws.com/uploads/picture/file/1931/gs.png]
+![demo image](https://coderwall-assets-0.s3.amazonaws.com/uploads/picture/file/1931/gs.png "to be updated")
