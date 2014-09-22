@@ -1,14 +1,14 @@
 # Priorities from 09/22 meeting
 
 * Shared Vision - documented (8)
-* Workflows [within context of content] (8)
+* Workflows (within context of content) (8)
 * Service Manager / Authority for Process (4)
 * Vetting (2)
 * Training (2)
 * Coaching (2)
 * Build-Out / Working Groups (2)
 * Evaluation Criteria (1)
-* Next team iteration [core, scrums] (1)
+* Next team iteration (core, scrums) (1)
 * Accounts (1)
 * Roles (1)
 * Permissions
